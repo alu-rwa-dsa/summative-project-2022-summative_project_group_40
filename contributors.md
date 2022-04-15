@@ -1,4 +1,4 @@
-# Contributors Of the Project 
+# Contributors of the Project 
 
 ## Testimony Adeyemi
 Testimony Adeyemi worked on the GUI(Graphical User Interface). Using python’s Tkinter to build an interface where the users can input their Sudoku problem and also receive the solution
