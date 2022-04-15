@@ -28,7 +28,7 @@ We have made this Readme easier for you to navigate by creating this links:
 
 - **Algorithm: Backtracking Algorithm**
   - Backtracking is an algorithmic technique that aims to use a brute force approach to get all the solutions to a problem. It uses the recursive call to build the solution step by step and find the solution set by increasing the level over time. Essentially, you keep trying numbers in empty spots until there aren't any that are possible, then you backtrack and try different numbers in the previous slots. This is a better optimized algorithm than the naive approach where you just try every number 
-  - How It works in simpler logic
+  - How It works in simpler logic:
       - A digit in the wrong location often quickly shows that the solution is infeasable. With n entries left, if there are no entries, n = 0, left, we are finished, indicate succes;
       - Otherwise, find a square that is not yet filled, and for each digit from 1 to 9. 
       - Place the digit in the digit in that square and see whether the the solution is feasible, and if so call backtracking algorithm recursively
@@ -164,7 +164,7 @@ If you wish to play the sudoku without having python download:
 - Click the file named `sudoklver.exe `.
 - You would see a `download` option, click on it and the application would start downloading
 - You can then open the application from wherever it is stored after downloading
-- There might be some antivirus blocking ingnore this as the file is safe :wink:
+- There might be some antivirus blocking ignore this as the file is safe :wink:
 
 ### Running Locally on the local Machine
 If you wish to run the program and test it locally, on your machine to see the files details and other things there are a few things that need to be done to get it up and running. **If the instructions are not followed to the latter, it will not run**
