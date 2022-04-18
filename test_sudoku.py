@@ -1,7 +1,7 @@
 #Importing the unit test module
 import unittest
-#import solver
-#import gui
+import solver
+import gui
 
 
 class Testcases(unittest.TestCase):
