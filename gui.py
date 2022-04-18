@@ -98,7 +98,7 @@ def tab1():
                 errLabel.configure(text="Please input some values")
 
             ''' Edge Case 2: 
-            A classic sudoku has a minimum of 17 values for it to be solved this block of code helps to ensure that
+            A classic sudoku has a minimum of 17 values for it to be solved this block of code helps to ensure that 
             '''
             for i in range(65, 81):
                 if count == i:
