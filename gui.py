@@ -97,8 +97,15 @@ def tab1():
             if count == 81:
                 errLabel.configure(text="Please input some values")
 
-            else:
-                updateValues(board)
+            ''' Edge Case 2: 
+            A classic sudoku has a minimum of 17 values for it to be solved this block of code helps to ensure that
+            '''
+            for i in range(65, 81):
+                if count == i:
+                    errLabel.configure(text="Not enough starting values")
+            for i in range(1, 65):
+                if count == i:
+                    updateValues(board)
 
         btn = Button(root, command=getValues, text="Solve", width=10)
         btn.grid(row=20, column=1, columnspan=5, pady=20)
@@ -150,6 +157,8 @@ def tab1():
         END, u"\u2022\tEach column contains the numbers from 1 to 9 without repetitions.\n", 'bulleted_list')
     text.insert(
         END, u"\u2022\tThe digits can only occur once per block/grid.\n", 'bulleted_list')
+    text.insert(
+        END, u"\u2022\tA classic sudoku needs to have a minimum of 17 values in the puzzle.\n", 'bulleted_list')
     text.configure(state=DISABLED)
     text.pack()
 
